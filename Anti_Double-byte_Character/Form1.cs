@@ -17,5 +17,9 @@ namespace Anti_Double_byte_Character
             InitializeComponent();
         }
 
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
