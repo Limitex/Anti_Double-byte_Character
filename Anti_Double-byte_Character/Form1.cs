@@ -42,7 +42,7 @@ namespace Anti_Double_byte_Character
 
         private static bool ImeChangerEnable = true;
         private static bool RunEnable = true;
-        private static int interval = 1;
+        private static int interval = 10;
 
         private static Thread thread = new Thread(ImeChanger);
 
